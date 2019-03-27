@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="armeabi-v7a,armeabi"
     api-level="27"
-    build-mode="HOT_WARM"
-    density="xhdpi"
+    build-mode="FULL"
+    density="xxhdpi"
     format="10"
     plugin-version="3.3.2"
-    timestamp="1553625271632"
+    timestamp="1553708122621"
     token="-9077045084744144259"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -26,13 +26,49 @@
     <artifact
         location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
+    <artifact
+        location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1553625163050"
+        timestamp="1553708122621"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
             location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -53,7 +89,7 @@
             location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -70,14 +106,6 @@
         <artifact
             location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1553625271632"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

@@ -24,12 +24,12 @@
         "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
-        "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -44,12 +44,12 @@
         "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
-        "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
         "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
+        "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat",
@@ -288,12 +288,12 @@
         "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/layout_earthquake_list.xml.flat",
         "source": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/res/layout/earthquake_list.xml"
+    },
+    {
+        "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/layout_select_dialog_item_material.xml.flat",
@@ -992,12 +992,12 @@
         "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/drawable_magnitude_circle.xml.flat",
         "source": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/res/drawable/magnitude_circle.xml"
+    },
+    {
+        "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_light.xml.flat",

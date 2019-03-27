@@ -15,6 +15,8 @@
  */
 package com.example.android.quakereport;
 
+import android.content.Context;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -35,16 +37,27 @@ public class EarthquakeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.earthquake_list);
 
-        ArrayList<EarthquakeObject> earthquakes = QueryUtils.extractEarthquakes();
+        new earthquakeTask(this).execute();
+    }
 
-        // Find a reference to the {@link ListView} in the layout
-        ListView earthquakeListView = (ListView) findViewById(R.id.earthquake_list);
 
-        // Create a new {@link ArrayAdapter} of earthquakes
-        EarthquakeAdapter adapter = new EarthquakeAdapter(this,earthquakes);
+    private class earthquakeTask extends AsyncTask<Void, Void, ArrayList<EarthquakeObject>>{
+        private Context mContext;
 
-        // Set the adapter on the {@link ListView}
-        // so the list can be populated in the user interface
-        earthquakeListView.setAdapter(adapter);
+        public earthquakeTask(Context context){
+            mContext = context;
+        }
+
+        @Override
+        protected ArrayList<EarthquakeObject> doInBackground(Void... voids) {
+            return QueryUtils.extractEarthquakes();
+        }
+
+        @Override
+        protected void onPostExecute(ArrayList<EarthquakeObject> earthquakes){
+            ListView earthquakeListView = (ListView) findViewById(R.id.earthquake_list);
+            EarthquakeAdapter adapter = new EarthquakeAdapter(mContext,earthquakes);
+            earthquakeListView.setAdapter(adapter);
+        }
     }
 }
