@@ -1,7 +1,5 @@
 package com.example.android.quakereport;
 
-import android.app.usage.UsageEvents;
-import android.util.EventLog;
 import android.util.Log;
 
 import org.json.JSONArray;
@@ -25,21 +23,21 @@ import static com.example.android.quakereport.EarthquakeActivity.LOG_TAG;
  * Helper methods related to requesting and receiving earthquake data from USGS.
  */
 public final class QueryUtils {
-    private static final String EQ_REQUEST_URL =
-            "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventtype=earthquake&orderby=time&minmag=6&limit=10";
+    private static String EQ_REQUEST_URL;
     /**
      * Create a private constructor because no one should ever create a {@link QueryUtils} object.
      * This class is only meant to hold static variables and methods, which can be accessed
      * directly from the class name QueryUtils (and an object instance of QueryUtils is not needed).
      */
-    private QueryUtils() {
+    private QueryUtils(String url) {
     }
 
     /**
      * Return a list of {@link EarthquakeObject} objects that has been built up from
      * parsing a JSON response.
      */
-    public static ArrayList<EarthquakeObject> extractEarthquakes() {
+    public static ArrayList<EarthquakeObject> extractEarthquakes(String url) {
+        EQ_REQUEST_URL = url;
         String jsonRequest = null;
         try{
             jsonRequest = makeHttpRequest();

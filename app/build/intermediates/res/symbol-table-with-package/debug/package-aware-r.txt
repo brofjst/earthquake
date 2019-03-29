@@ -9,6 +9,8 @@ anim abc_slide_in_bottom
 anim abc_slide_in_top
 anim abc_slide_out_bottom
 anim abc_slide_out_top
+array settings_order_by_labels
+array settings_order_by_values
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -476,6 +478,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_settings
 id activity_chooser_view_content
 id alertTitle
 id always
@@ -498,6 +501,7 @@ id disableHome
 id earthquake_data
 id earthquake_list
 id edit_query
+id empty_view
 id end
 id end_padder
 id expand_activities_button
@@ -512,6 +516,7 @@ id line1
 id line3
 id listMode
 id list_item
+id loading_spinner
 id magnitude_text_view
 id media_actions
 id middle
@@ -604,7 +609,10 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout settings_activity
 layout support_simple_spinner_dropdown_item
+menu main
+mipmap ic_filter
 mipmap ic_launcher
 string abc_action_bar_home_description
 string abc_action_bar_home_description_format
@@ -626,6 +634,18 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string settings_menu_item
+string settings_min_magnitude_default
+string settings_min_magnitude_key
+string settings_min_magnitude_label
+string settings_order_by_default
+string settings_order_by_key
+string settings_order_by_label
+string settings_order_by_magnitude_label
+string settings_order_by_magnitude_value
+string settings_order_by_most_recent_label
+string settings_order_by_most_recent_value
+string settings_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -975,3 +995,4 @@ styleable Toolbar android_gravity android_minHeight collapseContentDescription c
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml settings_main

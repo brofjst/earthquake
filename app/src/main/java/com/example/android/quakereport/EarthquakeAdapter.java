@@ -12,8 +12,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
 public class EarthquakeAdapter extends ArrayAdapter<EarthquakeObject> {
@@ -91,6 +89,8 @@ public class EarthquakeAdapter extends ArrayAdapter<EarthquakeObject> {
 
         TextView dateString = (TextView) listView.findViewById(R.id.date_text_view);
         dateString.setText(item.getmDate());
+
+
 
         return listView;
     }

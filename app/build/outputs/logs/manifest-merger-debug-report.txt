@@ -1,27 +1,27 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-34:12
-INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-34:12
-INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-34:12
-INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-34:12
+ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-42:12
+INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-42:12
+INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-42:12
+INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-42:12
 MERGED from [com.android.support:appcompat-v7:23.3.0] /home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:animated-vector-drawable:23.3.0] /home/simo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/87da4a65b945c26c7556bb5a231edb9a/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:support-vector-drawable:23.3.0] /home/simo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/d36d142fb90bcc6bfaecacf14c2e9fdc/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:support-v4:23.3.0] /home/simo/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/402b20bafb7ce304512020f5ea19d816/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-34:12
-INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-34:12
-INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-34:12
+INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-42:12
+INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-42:12
+INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-42:12
 	package
 		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:17:5-46
 		INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml
 		INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml
-		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-34:12
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-42:12
 		INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml
-		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-34:12
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:1-42:12
 		INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:16:11-69
@@ -29,8 +29,12 @@ uses-permission#android.permission.INTERNET
 ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:18:5-66
 	android:name
 		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:18:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:19:22-76
 application
-ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:20:5-32:19
+ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:21:5-40:19
 MERGED from [com.android.support:appcompat-v7:23.3.0] /home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:23.3.0] /home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/7ce143a8e9fdb34a310e0830946f876b/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.3.0] /home/simo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/87da4a65b945c26c7556bb5a231edb9a/AndroidManifest.xml:7:5-20
@@ -40,29 +44,41 @@ MERGED from [com.android.support:support-vector-drawable:23.3.0] /home/simo/.gra
 MERGED from [com.android.support:support-v4:23.3.0] /home/simo/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/402b20bafb7ce304512020f5ea19d816/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.3.0] /home/simo/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/402b20bafb7ce304512020f5ea19d816/AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:24:9-35
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:25:9-35
 	android:label
-		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:23:9-41
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:24:9-41
 	android:icon
-		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:22:9-43
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:23:9-43
 	android:allowBackup
-		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:21:9-35
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:25:9-40
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:26:9-40
 activity#com.example.android.quakereport.EarthquakeActivity
-ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:26:9-31:20
+ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:27:9-32:20
 	android:name
-		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:26:19-53
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:27:19-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:27:13-30:29
+ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:28:13-31:29
 action#android.intent.action.MAIN
-ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:28:17-69
+ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:29:17-77
+ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:29:27-74
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:30:27-74
+activity#com.example.android.quakereport.SettingsActivity
+ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:33:9-39:20
+	android:label
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:35:13-51
+	android:name
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:34:13-45
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:38:17-83
+	android:name
+		ADDED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml:37:17-63
 uses-sdk
 INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/simo/AndroidStudioProjects/ud843-QuakeReport-starting-point/app/src/main/AndroidManifest.xml
